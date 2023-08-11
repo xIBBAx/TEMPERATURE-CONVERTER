@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e2e9ed;
+}
+.title {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  gap: 10px;
+}
+.title i {
+  font-size: 45px;
+  color: #fff;
+}
+.title h1 {
+  font-size: 1.9rem;
+  color: #fff;
+  letter-spacing: 1.2px;
+}
+.cont-box {
+  width: 450px;
+  background-color: #e4c218;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  height: 430px;
+}
+.celcius,
+.fahrenheit,
+.kelvin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+input {
+  flex: 4;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  height: 60px;
+  border: none;
+  outline: none;
+  border-radius: 10px 0 0 10px;
+  padding: 0 10px;
+}
+/*for chrome
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+/*for MF
+input {
+  -moz-appearance: textfield;
+}*/
+.icon {
+  flex: 1;
+  height: 60px;
+  padding: 0 5px;
+  line-height: 60px;
+  color: #fff;
+  font-size: 1.9rem;
+  text-align: center;
+  border-radius: 0 10px 10px 0;
+  background-color: #526d82;
+}
+.button {
+  margin-top: 25px;
+  text-align: center;
+}
+.button button {
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.button button:hover {
+  background-color: #526d82;
+  color: #fff;
+}
